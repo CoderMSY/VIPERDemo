@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform:ios,’8.0’
+inhibit_all_warnings!
+
+target 'VIPERDemo' do
+
+pod 'BGFMDB'
+pod 'IQKeyboardManager'
+pod 'Masonry'
+
+end
+
+

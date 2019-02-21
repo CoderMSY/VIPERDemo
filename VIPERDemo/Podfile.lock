@@ -1,0 +1,29 @@
+PODS:
+  - BGFMDB (2.0.13):
+    - BGFMDB/BG (= 2.0.13)
+    - BGFMDB/FMDB (= 2.0.13)
+  - BGFMDB/BG (2.0.13):
+    - BGFMDB/FMDB
+  - BGFMDB/FMDB (2.0.13)
+  - IQKeyboardManager (6.2.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - BGFMDB
+  - IQKeyboardManager
+  - Masonry
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BGFMDB
+    - IQKeyboardManager
+    - Masonry
+
+SPEC CHECKSUMS:
+  BGFMDB: 48e6823027232402a678acc7f71484b1fc9171d0
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: dcc21fd2837006c0e86d80df54753cdcced4ef02
+
+COCOAPODS: 1.6.0.beta.2
