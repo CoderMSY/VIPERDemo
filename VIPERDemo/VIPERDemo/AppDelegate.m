@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "ATAppDependencies.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic, strong) ATAppDependencies *dependencies;
 
 @end
 
@@ -17,6 +20,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.dependencies = [[ATAppDependencies alloc] init];
+    [self.dependencies installRootViewControllerIntoWindow:self.window];
+    
     return YES;
 }
 

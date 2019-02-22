@@ -15,6 +15,15 @@
 		7EE4B073221E7EC90069C673 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE4B072221E7EC90069C673 /* main.m */; };
 		7EE4B07D221E7EC90069C673 /* VIPERDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE4B07C221E7EC90069C673 /* VIPERDemoTests.m */; };
 		7EE4B088221E7EC90069C673 /* VIPERDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE4B087221E7EC90069C673 /* VIPERDemoUITests.m */; };
+		7EE4B097221E81980069C673 /* ATAppDependencies.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE4B096221E81980069C673 /* ATAppDependencies.m */; };
+		7EE4B0A1221E838B0069C673 /* ATNoteListRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE4B0A0221E838B0069C673 /* ATNoteListRouter.m */; };
+		7EE4B0A6221E83FC0069C673 /* ATBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE4B0A5221E83FC0069C673 /* ATBaseViewController.m */; };
+		7EE4B0A9221E84430069C673 /* ATNoteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE4B0A8221E84430069C673 /* ATNoteListViewController.m */; };
+		7EE4B0AC221E84AD0069C673 /* ATNoteListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE4B0AB221E84AD0069C673 /* ATNoteListPresenter.m */; };
+		7EE4B0AF221E84CF0069C673 /* ATNoteListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE4B0AE221E84CF0069C673 /* ATNoteListInteractor.m */; };
+		7EE4B0B4221E897B0069C673 /* ATRootRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE4B0B3221E897B0069C673 /* ATRootRouter.m */; };
+		7EE4B0B7221E8BCA0069C673 /* ATNoteListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE4B0B6221E8BCA0069C673 /* ATNoteListView.m */; };
+		7EE4B0BA221E8E440069C673 /* ATNoteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE4B0B9221E8E440069C673 /* ATNoteModel.m */; };
 		BDF416E7FC32A36E30158875 /* libPods-VIPERDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E32A5DFE370D465D5CA269 /* libPods-VIPERDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +47,9 @@
 /* Begin PBXFileReference section */
 		42C8BB7BFEB34FCEBD901191 /* Pods-VIPERDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPERDemo.release.xcconfig"; path = "Target Support Files/Pods-VIPERDemo/Pods-VIPERDemo.release.xcconfig"; sourceTree = "<group>"; };
 		42E32A5DFE370D465D5CA269 /* libPods-VIPERDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VIPERDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E2B7416221F95B90052DCFA /* ATNoteListInteractorIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATNoteListInteractorIO.h; sourceTree = "<group>"; };
+		7E2B7417221F99640052DCFA /* ATNoteListViewInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATNoteListViewInterface.h; sourceTree = "<group>"; };
+		7E2B7418221FA1890052DCFA /* ATNoteListModuleInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATNoteListModuleInterface.h; sourceTree = "<group>"; };
 		7EE4B060221E7EC70069C673 /* VIPERDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPERDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE4B063221E7EC70069C673 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7EE4B064221E7EC70069C673 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +66,24 @@
 		7EE4B083221E7EC90069C673 /* VIPERDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPERDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE4B087221E7EC90069C673 /* VIPERDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIPERDemoUITests.m; sourceTree = "<group>"; };
 		7EE4B089221E7EC90069C673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EE4B095221E81980069C673 /* ATAppDependencies.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAppDependencies.h; sourceTree = "<group>"; };
+		7EE4B096221E81980069C673 /* ATAppDependencies.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAppDependencies.m; sourceTree = "<group>"; };
+		7EE4B09F221E838B0069C673 /* ATNoteListRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATNoteListRouter.h; sourceTree = "<group>"; };
+		7EE4B0A0221E838B0069C673 /* ATNoteListRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATNoteListRouter.m; sourceTree = "<group>"; };
+		7EE4B0A4221E83FC0069C673 /* ATBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATBaseViewController.h; sourceTree = "<group>"; };
+		7EE4B0A5221E83FC0069C673 /* ATBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATBaseViewController.m; sourceTree = "<group>"; };
+		7EE4B0A7221E84430069C673 /* ATNoteListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATNoteListViewController.h; sourceTree = "<group>"; };
+		7EE4B0A8221E84430069C673 /* ATNoteListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATNoteListViewController.m; sourceTree = "<group>"; };
+		7EE4B0AA221E84AD0069C673 /* ATNoteListPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATNoteListPresenter.h; sourceTree = "<group>"; };
+		7EE4B0AB221E84AD0069C673 /* ATNoteListPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATNoteListPresenter.m; sourceTree = "<group>"; };
+		7EE4B0AD221E84CF0069C673 /* ATNoteListInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATNoteListInteractor.h; sourceTree = "<group>"; };
+		7EE4B0AE221E84CF0069C673 /* ATNoteListInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATNoteListInteractor.m; sourceTree = "<group>"; };
+		7EE4B0B2221E897B0069C673 /* ATRootRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATRootRouter.h; sourceTree = "<group>"; };
+		7EE4B0B3221E897B0069C673 /* ATRootRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATRootRouter.m; sourceTree = "<group>"; };
+		7EE4B0B5221E8BCA0069C673 /* ATNoteListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATNoteListView.h; sourceTree = "<group>"; };
+		7EE4B0B6221E8BCA0069C673 /* ATNoteListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATNoteListView.m; sourceTree = "<group>"; };
+		7EE4B0B8221E8E440069C673 /* ATNoteModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATNoteModel.h; sourceTree = "<group>"; };
+		7EE4B0B9221E8E440069C673 /* ATNoteModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATNoteModel.m; sourceTree = "<group>"; };
 		F0E4F7DCDA8947A054C76C1E /* Pods-VIPERDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPERDemo.debug.xcconfig"; path = "Target Support Files/Pods-VIPERDemo/Pods-VIPERDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,7 +119,6 @@
 				F0E4F7DCDA8947A054C76C1E /* Pods-VIPERDemo.debug.xcconfig */,
 				42C8BB7BFEB34FCEBD901191 /* Pods-VIPERDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -120,6 +149,10 @@
 			children = (
 				7EE4B063221E7EC70069C673 /* AppDelegate.h */,
 				7EE4B064221E7EC70069C673 /* AppDelegate.m */,
+				7EE4B095221E81980069C673 /* ATAppDependencies.h */,
+				7EE4B096221E81980069C673 /* ATAppDependencies.m */,
+				7EE4B0A2221E83C30069C673 /* Common */,
+				7EE4B098221E82170069C673 /* Modules */,
 				7EE4B066221E7EC70069C673 /* ViewController.h */,
 				7EE4B067221E7EC70069C673 /* ViewController.m */,
 				7EE4B069221E7EC70069C673 /* Main.storyboard */,
@@ -147,6 +180,111 @@
 				7EE4B089221E7EC90069C673 /* Info.plist */,
 			);
 			path = VIPERDemoUITests;
+			sourceTree = "<group>";
+		};
+		7EE4B098221E82170069C673 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7EE4B099221E82250069C673 /* NoteList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7EE4B099221E82250069C673 /* NoteList */ = {
+			isa = PBXGroup;
+			children = (
+				7EE4B09E221E82F00069C673 /* View */,
+				7EE4B09A221E824F0069C673 /* Interactor */,
+				7EE4B09C221E82DA0069C673 /* Presenter */,
+				7EE4B09D221E82E30069C673 /* Entity */,
+				7EE4B09B221E82730069C673 /* Router */,
+			);
+			path = NoteList;
+			sourceTree = "<group>";
+		};
+		7EE4B09A221E824F0069C673 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				7EE4B0AD221E84CF0069C673 /* ATNoteListInteractor.h */,
+				7EE4B0AE221E84CF0069C673 /* ATNoteListInteractor.m */,
+				7E2B7416221F95B90052DCFA /* ATNoteListInteractorIO.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		7EE4B09B221E82730069C673 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7EE4B09F221E838B0069C673 /* ATNoteListRouter.h */,
+				7EE4B0A0221E838B0069C673 /* ATNoteListRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7EE4B09C221E82DA0069C673 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7EE4B0AA221E84AD0069C673 /* ATNoteListPresenter.h */,
+				7EE4B0AB221E84AD0069C673 /* ATNoteListPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7EE4B09D221E82E30069C673 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				7EE4B0B8221E8E440069C673 /* ATNoteModel.h */,
+				7EE4B0B9221E8E440069C673 /* ATNoteModel.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		7EE4B09E221E82F00069C673 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7EE4B0A7221E84430069C673 /* ATNoteListViewController.h */,
+				7EE4B0A8221E84430069C673 /* ATNoteListViewController.m */,
+				7E2B7417221F99640052DCFA /* ATNoteListViewInterface.h */,
+				7E2B7418221FA1890052DCFA /* ATNoteListModuleInterface.h */,
+				7EE4B0B5221E8BCA0069C673 /* ATNoteListView.h */,
+				7EE4B0B6221E8BCA0069C673 /* ATNoteListView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7EE4B0A2221E83C30069C673 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7EE4B0B0221E894E0069C673 /* VIPER */,
+				7EE4B0A3221E83D10069C673 /* BaseClass */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7EE4B0A3221E83D10069C673 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				7EE4B0A4221E83FC0069C673 /* ATBaseViewController.h */,
+				7EE4B0A5221E83FC0069C673 /* ATBaseViewController.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		7EE4B0B0221E894E0069C673 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				7EE4B0B1221E895C0069C673 /* Router */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		7EE4B0B1221E895C0069C673 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7EE4B0B2221E897B0069C673 /* ATRootRouter.h */,
+				7EE4B0B3221E897B0069C673 /* ATRootRouter.m */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		9C827B698A100653A13546F0 /* Frameworks */ = {
@@ -221,6 +359,7 @@
 		7EE4B058221E7EC70069C673 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AT;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = avatar;
 				TargetAttributes = {
@@ -336,9 +475,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EE4B0BA221E8E440069C673 /* ATNoteModel.m in Sources */,
 				7EE4B068221E7EC70069C673 /* ViewController.m in Sources */,
+				7EE4B0A1221E838B0069C673 /* ATNoteListRouter.m in Sources */,
+				7EE4B0A9221E84430069C673 /* ATNoteListViewController.m in Sources */,
+				7EE4B0A6221E83FC0069C673 /* ATBaseViewController.m in Sources */,
 				7EE4B073221E7EC90069C673 /* main.m in Sources */,
+				7EE4B0B4221E897B0069C673 /* ATRootRouter.m in Sources */,
 				7EE4B065221E7EC70069C673 /* AppDelegate.m in Sources */,
+				7EE4B0AF221E84CF0069C673 /* ATNoteListInteractor.m in Sources */,
+				7EE4B097221E81980069C673 /* ATAppDependencies.m in Sources */,
+				7EE4B0B7221E8BCA0069C673 /* ATNoteListView.m in Sources */,
+				7EE4B0AC221E84AD0069C673 /* ATNoteListPresenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
