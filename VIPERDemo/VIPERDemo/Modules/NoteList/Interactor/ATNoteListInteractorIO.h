@@ -10,12 +10,21 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+ 输入协议
+ */
 @protocol ATNoteListInteractorInput <NSObject>
 
+/**
+ 获取note list 数据源
+ */
 - (void)findListItems;
 
 @end
 
+/**
+ 输出协议
+ */
 @protocol ATNoteListInteractorOutput <NSObject>
 
 - (void)foundListItems:(NSArray *)listItems;

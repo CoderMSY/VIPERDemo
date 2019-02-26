@@ -1,5 +1,5 @@
 //
-//  ATNoteListModuleInterface.h
+//  ATAddNoteTextFieldModel.h
 //  VIPERDemo
 //
 //  Created by SimonMiao on 2019/2/22.
@@ -10,10 +10,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol ATNoteListModuleInterface <NSObject>
+@interface ATAddNoteTextFieldModel : NSObject
 
-- (void)updateView;
-- (void)addNewNote;
+@property (nonatomic, copy) NSString *title;
+@property (nonatomic, copy) NSString *detail;
 
 @end
 

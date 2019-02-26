@@ -1,19 +1,18 @@
 //
-//  ATNoteListModuleInterface.h
+//  ATAddNoteView.h
 //  VIPERDemo
 //
 //  Created by SimonMiao on 2019/2/22.
 //  Copyright © 2019 avatar. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol ATNoteListModuleInterface <NSObject>
+@interface ATAddNoteView : UIView
 
-- (void)updateView;
-- (void)addNewNote;
+@property (nonatomic, strong) NSArray *dataSource;
 
 @end
 

@@ -1,5 +1,5 @@
 //
-//  ATNoteListModuleInterface.h
+//  ATAddNoteInteractorIO.h
 //  VIPERDemo
 //
 //  Created by SimonMiao on 2019/2/22.
@@ -10,10 +10,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol ATNoteListModuleInterface <NSObject>
+@protocol ATAddNoteInteractorInput <NSObject>
 
-- (void)updateView;
-- (void)addNewNote;
+- (void)findAddNoteList;
+
+@end
+
+@protocol ATAddNoteInteractorOutput <NSObject>
+
+- (void)outputAddNoteList:(NSArray *)list;
 
 @end
 

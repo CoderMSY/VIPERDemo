@@ -10,12 +10,15 @@
 #import "ATNoteListModuleInterface.h"
 #import "ATNoteListInteractorIO.h"
 #import "ATNoteListViewInterface.h"
+#import "ATNoteListRouter.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ATNoteListPresenter : NSObject <ATNoteListModuleInterface, ATNoteListInteractorOutput>
 
 @property (nonatomic, strong) id<ATNoteListInteractorInput> listInteractor;
 @property (nonatomic, strong) id<ATNoteListViewInterface> viewInterface;
+
+@property (nonatomic, strong) ATNoteListRouter *listRouter;
 
 @end
 

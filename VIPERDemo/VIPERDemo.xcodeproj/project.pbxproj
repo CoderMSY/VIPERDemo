@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E2B7420221FE4300052DCFA /* ATAddNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2B741F221FE4300052DCFA /* ATAddNoteViewController.m */; };
+		7E2B7423221FE5490052DCFA /* ATAddNoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2B7422221FE5490052DCFA /* ATAddNoteView.m */; };
+		7E2B7426221FE7270052DCFA /* ATBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2B7425221FE7270052DCFA /* ATBaseTableViewCell.m */; };
+		7E2B7429221FE76E0052DCFA /* ATAddNoteTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2B7428221FE76E0052DCFA /* ATAddNoteTextFieldCell.m */; };
+		7E2B742D221FEA6B0052DCFA /* ATAddNoteInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2B742C221FEA6B0052DCFA /* ATAddNoteInteractor.m */; };
+		7E2B7430221FEAB40052DCFA /* ATAddNotePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2B742F221FEAB40052DCFA /* ATAddNotePresenter.m */; };
+		7E2B7435221FED3F0052DCFA /* ATAddNoteTextFieldModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2B7434221FED3F0052DCFA /* ATAddNoteTextFieldModel.m */; };
+		7E2B7438221FEE390052DCFA /* ATAddNoteDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2B7437221FEE390052DCFA /* ATAddNoteDateModel.m */; };
+		7E2B743C221FF6440052DCFA /* ATAddNoteRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2B743B221FF6440052DCFA /* ATAddNoteRouter.m */; };
 		7EE4B065221E7EC70069C673 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE4B064221E7EC70069C673 /* AppDelegate.m */; };
 		7EE4B068221E7EC70069C673 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE4B067221E7EC70069C673 /* ViewController.m */; };
 		7EE4B06B221E7EC70069C673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE4B069221E7EC70069C673 /* Main.storyboard */; };
@@ -50,6 +59,27 @@
 		7E2B7416221F95B90052DCFA /* ATNoteListInteractorIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATNoteListInteractorIO.h; sourceTree = "<group>"; };
 		7E2B7417221F99640052DCFA /* ATNoteListViewInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATNoteListViewInterface.h; sourceTree = "<group>"; };
 		7E2B7418221FA1890052DCFA /* ATNoteListModuleInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATNoteListModuleInterface.h; sourceTree = "<group>"; };
+		7E2B741E221FE4300052DCFA /* ATAddNoteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAddNoteViewController.h; sourceTree = "<group>"; };
+		7E2B741F221FE4300052DCFA /* ATAddNoteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAddNoteViewController.m; sourceTree = "<group>"; };
+		7E2B7421221FE5490052DCFA /* ATAddNoteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAddNoteView.h; sourceTree = "<group>"; };
+		7E2B7422221FE5490052DCFA /* ATAddNoteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAddNoteView.m; sourceTree = "<group>"; };
+		7E2B7424221FE7270052DCFA /* ATBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATBaseTableViewCell.h; sourceTree = "<group>"; };
+		7E2B7425221FE7270052DCFA /* ATBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATBaseTableViewCell.m; sourceTree = "<group>"; };
+		7E2B7427221FE76E0052DCFA /* ATAddNoteTextFieldCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAddNoteTextFieldCell.h; sourceTree = "<group>"; };
+		7E2B7428221FE76E0052DCFA /* ATAddNoteTextFieldCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAddNoteTextFieldCell.m; sourceTree = "<group>"; };
+		7E2B742A221FE97B0052DCFA /* ATAddNoteModuleInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAddNoteModuleInterface.h; sourceTree = "<group>"; };
+		7E2B742B221FEA6B0052DCFA /* ATAddNoteInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAddNoteInteractor.h; sourceTree = "<group>"; };
+		7E2B742C221FEA6B0052DCFA /* ATAddNoteInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAddNoteInteractor.m; sourceTree = "<group>"; };
+		7E2B742E221FEAB40052DCFA /* ATAddNotePresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAddNotePresenter.h; sourceTree = "<group>"; };
+		7E2B742F221FEAB40052DCFA /* ATAddNotePresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAddNotePresenter.m; sourceTree = "<group>"; };
+		7E2B7431221FEB420052DCFA /* ATAddNoteInteractorIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAddNoteInteractorIO.h; sourceTree = "<group>"; };
+		7E2B7433221FED3F0052DCFA /* ATAddNoteTextFieldModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAddNoteTextFieldModel.h; sourceTree = "<group>"; };
+		7E2B7434221FED3F0052DCFA /* ATAddNoteTextFieldModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAddNoteTextFieldModel.m; sourceTree = "<group>"; };
+		7E2B7436221FEE390052DCFA /* ATAddNoteDateModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAddNoteDateModel.h; sourceTree = "<group>"; };
+		7E2B7437221FEE390052DCFA /* ATAddNoteDateModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAddNoteDateModel.m; sourceTree = "<group>"; };
+		7E2B7439221FF1840052DCFA /* ATAddNoteViewInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAddNoteViewInterface.h; sourceTree = "<group>"; };
+		7E2B743A221FF6440052DCFA /* ATAddNoteRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATAddNoteRouter.h; sourceTree = "<group>"; };
+		7E2B743B221FF6440052DCFA /* ATAddNoteRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATAddNoteRouter.m; sourceTree = "<group>"; };
 		7EE4B060221E7EC70069C673 /* VIPERDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPERDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE4B063221E7EC70069C673 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7EE4B064221E7EC70069C673 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -122,6 +152,72 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		7E2B7419221FE3CC0052DCFA /* AddNote */ = {
+			isa = PBXGroup;
+			children = (
+				7E2B741D221FE40E0052DCFA /* View */,
+				7E2B741C221FE3FF0052DCFA /* Interactor */,
+				7E2B741B221FE3EE0052DCFA /* Presenter */,
+				7E2B7432221FECEB0052DCFA /* Entity */,
+				7E2B741A221FE3D70052DCFA /* Router */,
+			);
+			path = AddNote;
+			sourceTree = "<group>";
+		};
+		7E2B741A221FE3D70052DCFA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7E2B743A221FF6440052DCFA /* ATAddNoteRouter.h */,
+				7E2B743B221FF6440052DCFA /* ATAddNoteRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7E2B741B221FE3EE0052DCFA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7E2B742E221FEAB40052DCFA /* ATAddNotePresenter.h */,
+				7E2B742F221FEAB40052DCFA /* ATAddNotePresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7E2B741C221FE3FF0052DCFA /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				7E2B742B221FEA6B0052DCFA /* ATAddNoteInteractor.h */,
+				7E2B742C221FEA6B0052DCFA /* ATAddNoteInteractor.m */,
+				7E2B7431221FEB420052DCFA /* ATAddNoteInteractorIO.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		7E2B741D221FE40E0052DCFA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E2B741E221FE4300052DCFA /* ATAddNoteViewController.h */,
+				7E2B741F221FE4300052DCFA /* ATAddNoteViewController.m */,
+				7E2B742A221FE97B0052DCFA /* ATAddNoteModuleInterface.h */,
+				7E2B7439221FF1840052DCFA /* ATAddNoteViewInterface.h */,
+				7E2B7421221FE5490052DCFA /* ATAddNoteView.h */,
+				7E2B7422221FE5490052DCFA /* ATAddNoteView.m */,
+				7E2B7427221FE76E0052DCFA /* ATAddNoteTextFieldCell.h */,
+				7E2B7428221FE76E0052DCFA /* ATAddNoteTextFieldCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E2B7432221FECEB0052DCFA /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				7E2B7433221FED3F0052DCFA /* ATAddNoteTextFieldModel.h */,
+				7E2B7434221FED3F0052DCFA /* ATAddNoteTextFieldModel.m */,
+				7E2B7436221FEE390052DCFA /* ATAddNoteDateModel.h */,
+				7E2B7437221FEE390052DCFA /* ATAddNoteDateModel.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
 		7EE4B057221E7EC70069C673 = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +281,7 @@
 		7EE4B098221E82170069C673 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				7E2B7419221FE3CC0052DCFA /* AddNote */,
 				7EE4B099221E82250069C673 /* NoteList */,
 			);
 			path = Modules;
@@ -266,6 +363,8 @@
 			children = (
 				7EE4B0A4221E83FC0069C673 /* ATBaseViewController.h */,
 				7EE4B0A5221E83FC0069C673 /* ATBaseViewController.m */,
+				7E2B7424221FE7270052DCFA /* ATBaseTableViewCell.h */,
+				7E2B7425221FE7270052DCFA /* ATBaseTableViewCell.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -475,14 +574,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E2B7429221FE76E0052DCFA /* ATAddNoteTextFieldCell.m in Sources */,
+				7E2B7435221FED3F0052DCFA /* ATAddNoteTextFieldModel.m in Sources */,
 				7EE4B0BA221E8E440069C673 /* ATNoteModel.m in Sources */,
 				7EE4B068221E7EC70069C673 /* ViewController.m in Sources */,
 				7EE4B0A1221E838B0069C673 /* ATNoteListRouter.m in Sources */,
 				7EE4B0A9221E84430069C673 /* ATNoteListViewController.m in Sources */,
+				7E2B743C221FF6440052DCFA /* ATAddNoteRouter.m in Sources */,
 				7EE4B0A6221E83FC0069C673 /* ATBaseViewController.m in Sources */,
+				7E2B7420221FE4300052DCFA /* ATAddNoteViewController.m in Sources */,
+				7E2B742D221FEA6B0052DCFA /* ATAddNoteInteractor.m in Sources */,
 				7EE4B073221E7EC90069C673 /* main.m in Sources */,
+				7E2B7426221FE7270052DCFA /* ATBaseTableViewCell.m in Sources */,
 				7EE4B0B4221E897B0069C673 /* ATRootRouter.m in Sources */,
 				7EE4B065221E7EC70069C673 /* AppDelegate.m in Sources */,
+				7E2B7423221FE5490052DCFA /* ATAddNoteView.m in Sources */,
+				7E2B7438221FEE390052DCFA /* ATAddNoteDateModel.m in Sources */,
+				7E2B7430221FEAB40052DCFA /* ATAddNotePresenter.m in Sources */,
 				7EE4B0AF221E84CF0069C673 /* ATNoteListInteractor.m in Sources */,
 				7EE4B097221E81980069C673 /* ATAppDependencies.m in Sources */,
 				7EE4B0B7221E8BCA0069C673 /* ATNoteListView.m in Sources */,

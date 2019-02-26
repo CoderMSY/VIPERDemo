@@ -7,6 +7,7 @@
 //
 
 #import "ATNoteListPresenter.h"
+#import "ATNoteListRouter.h"
 
 @interface ATNoteListPresenter ()
 
@@ -16,9 +17,12 @@
 
 #pragma mark - ATNoteListModuleInterface
 
-
 - (void)updateView {
     [self.listInteractor findListItems];
+}
+
+- (void)addNewNote {
+    [self.listRouter presentAddInterface];
 }
 
 #pragma mark - ATNoteListInteractorOutput

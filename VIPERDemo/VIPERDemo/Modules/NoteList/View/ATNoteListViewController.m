@@ -53,6 +53,7 @@
 
 - (void)didTouchNavigationBarAddButton {
     NSLog(@"addButton 按钮点击了");
+    [self.eventHandler addNewNote];
 }
 
 #pragma mark - ATNoteListViewInterface

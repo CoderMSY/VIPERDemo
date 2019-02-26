@@ -52,6 +52,7 @@
     listRouter.rootRouter = [[ATRootRouter alloc] init];
     self.listRouter = listRouter;
     
+    listPresenter.listRouter = listRouter;
 }
 
 @end
